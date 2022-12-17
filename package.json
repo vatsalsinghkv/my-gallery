@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
   },
   "license": "MIT",
   "devDependencies": {

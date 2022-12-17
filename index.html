@@ -16,82 +16,112 @@
       href="https://devchallenges.io/"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="input.css" />
 
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: 'Poppins', sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+  <body
+    class="max-w-5xl mx-auto font-sans font-normal text-text p-3 min-h-screen flex flex-col"
+  >
+    <header class="py-10">
+      <div class="text-center">
+        <div
+          class="w-28 h-28 sm:w-40 sm:h-40 rounded-xl overflow-hidden mx-auto"
+        >
+          <img
+            src="https://source.unsplash.com/random/500x500?profile,girl,woman,actress,indian-girl,love,kiss"
+            alt="profile"
+            class="object-cover w-full"
+          />
+        </div>
+        <h1 class="text-title sm:text-title-lg mt-3">Vedika Kamane</h1>
+        <p
+          class="mt-2 sm:mt-3 text-muted text-secondary sm:text-secondary-lg font-normal"
+        >
+          Pune, Maharashtra
         </p>
-      </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+        <div
+          class="flex gap-3 justify-center mt-3 sm:mt-6 text-primary sm:text-primary-lg"
+        >
+          <div
+            class="w-20 h-14 sm:w-28 md:h-20 bg-light-gray rounded-xl flex justify-center items-center flex-col"
+          >
+            <p class="text-primary sm:text-primary-lg">100</p>
+            <p class="text-muted text-primary sm:text-sm">Posts</p>
+          </div>
+          <div
+            class="w-20 h-14 sm:w-28 md:h-20 bg-light-gray rounded-xl flex justify-center items-center flex-col"
+          >
+            <p class="text-primary sm:text-primary-lg">2,224</p>
+            <p class="text-muted text-primary sm:text-sm">Followers</p>
+          </div>
+          <div
+            class="w-20 h-14 sm:w-28 md:h-20 bg-light-gray rounded-xl flex justify-center items-center flex-col"
+          >
+            <p class="text-primary sm:text-primary-lg">1,432</p>
+            <p class="text-muted text-primary sm:text-sm">Following</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid grid-cols-3 gap-3 sm:py-4 md:py-6">
+      <img
+        src="https://source.unsplash.com/random/800x800?asthetic,furniture,city,nature,space,buildings,weather,firework"
+        alt="image-1"
+        class="shadow-sm rounded-xl h-full w-full object-cover"
+      />
+      <img
+        src="https://source.unsplash.com/random/1000x500?asthetic,furniture,nature,gray,books,space,city,festival"
+        alt="image-2"
+        class="shadow-sm col-span-2 rounded-xl h-full w-full object-cover"
+      />
+      <img
+        src="https://source.unsplash.com/random/1000x500?nature,martialarts,japan,sea,books,asthetic,life,ice"
+        alt="image-3"
+        class="shadow-sm col-span-2 rounded-xl h-full w-full object-cover"
+      />
+      <img
+        src="https://source.unsplash.com/random/500x1000?city,china,lifestyle,books,gray,japan,martial-art,building,india,asthetic,space"
+        alt="image-4"
+        class="shadow-sm row-span-2 rounded-xl h-full w-full object-cover"
+      />
+      <img
+        src="https://source.unsplash.com/random/800x800?coding,japan,british,boxing,robots,newyork,vikings,city,asthetic,furniture,nature"
+        alt="image-5"
+        class="shadow-sm rounded-xl h-full w-full object-cover"
+      />
+      <img
+        src="https://source.unsplash.com/random/800x800?romance,photography,kingdom,study,boxing,education,appartment,work,asthetic,furniture,nature"
+        alt="image-6"
+        class="shadow-sm rounded-xl h-full w-full object-cover"
+      />
+    </main>
+
+    <footer class="text-center text-xs text-slate-400 mt-auto pb-3">
+      created by
+      <a
+        href="https://www.github.com/vatsalsinghkv"
+        class="text-slate-600 hover:text-blue-400"
+        target="_blank"
+        >vatsalsinghkv</a
+      >
+      -
+      <a
+        href="https://devchallenges.io/"
+        class="hover:text-blue-400"
+        target="_blank"
+        >devChallenges.io</a
+      >
+    </footer>
   </body>
 </html>
