@@ -20,7 +20,7 @@ const persons = [
   },
 ];
 
-const getRandomPerson = () => persons[Math.floor(Math.random() * (persons.length - 1))];
+const getRandomPerson = () => persons[Math.floor(Math.random() * persons.length)];
 
 const person = getRandomPerson();
 
